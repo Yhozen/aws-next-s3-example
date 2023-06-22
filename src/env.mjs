@@ -24,6 +24,8 @@ export const env = createEnv({
     COGNITO_CLIENT_ID: z.string(),
     COGNITO_CLIENT_SECRET: z.string(),
     COGNITO_ISSUER: z.string(),
+    AWS_ACCESS_KEY_ID: z.string(),
+    AWS_SECRET_ACCESS_KEY: z.string(),
   },
 
   /**
